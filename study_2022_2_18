@@ -35,7 +35,10 @@ Python decode() 方法以 encoding 指定的编码格式解码字符串。默认
 
 
 
+getattr() 函数用于返回一个对象属性值。
 
+动态导入模块与类
+https://www.cnblogs.com/cao123/articles/10138193.html
 
 
 
