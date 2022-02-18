@@ -1,0 +1,54 @@
+isinstance() 函数来判断一个对象是否是一个已知的类型，类似 type()。
+isinstance() 与 type() 区别：
+
+type() 不会认为子类是一种父类类型，不考虑继承关系。
+
+isinstance() 会认为子类是一种父类类型，考虑继承关系。
+
+如果要判断两个类型是否相同推荐使用 isinstance()。
+>>>a = 2
+>>> isinstance (a,int)
+True
+>>> isinstance (a,str)
+False
+>>> isinstance (a,(str,int,list))    # 是元组中的一个返回 True
+True
+
+
+
+lower()
+Python lower() 方法转换字符串中所有大写字符为小写。
+str = "THIS IS STRING EXAMPLE....WOW!!!";
+print str.lower();
+this is string example....wow!!!
+
+
+
+int.from_bytes函数
+功能：res = int.from_bytes(x)的含义是把bytes类型的变量x，转化为十进制整数，并存入res中。其中bytes类型是python3特有的类型。
+int.to_bytes函数
+功能：是int.from_bytes的逆过程，把十进制整数，转换为bytes类型的格式。
+
+
+Python decode() 方法以 encoding 指定的编码格式解码字符串。默认编码为字符串编码。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
